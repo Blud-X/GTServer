@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{14025D47-7458-3D11-8F24-781B908F374C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\agung\Documents\My Project\Random\GTServer\build\CMakeFiles\254434d635bf506fbfec384e30bd8c9d\generate.stamp.rule">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/agung/Documents/My Project/Random/GTServer" "-BC:/Users/agung/Documents/My Project/Random/GTServer/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/agung/Documents/My Project/Random/GTServer/build/GrowtopiaServer.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\CMakeLists.txt;C:\Users\agung\Documents\My Project\Random\GTServer\build\CMakeFiles\3.30.0-rc3\CMakeCCompiler.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\CMakeFiles\3.30.0-rc3\CMakeCXXCompiler.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\CMakeFiles\3.30.0-rc3\CMakeRCCompiler.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\CMakeFiles\3.30.0-rc3\CMakeSystem.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\cmakedeps_macros.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\fmt-Target-release.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\fmt-config-version.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\fmt-config.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\fmt-release-x86_64-data.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\fmtTargets.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\magic_enum-Target-release.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\magic_enum-config-version.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\magic_enum-config.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\magic_enum-release-x86_64-data.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\magic_enumTargets.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\src\CMakeLists.txt;C:\Users\agung\Documents\My Project\Random\GTServer\src\conan.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\vendor\CMakeLists.txt;C:\Users\agung\Documents\My Project\Random\GTServer\vendor\enet\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\agung\Documents\My Project\Random\GTServer\build\CMakeFiles\generate.stamp;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\CMakeFiles\generate.stamp;C:\Users\agung\Documents\My Project\Random\GTServer\build\vendor\CMakeFiles\generate.stamp;C:\Users\agung\Documents\My Project\Random\GTServer\build\vendor\enet\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/agung/Documents/My Project/Random/GTServer" "-BC:/Users/agung/Documents/My Project/Random/GTServer/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/agung/Documents/My Project/Random/GTServer/build/GrowtopiaServer.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\CMakeLists.txt;C:\Users\agung\Documents\My Project\Random\GTServer\build\CMakeFiles\3.30.0-rc3\CMakeCCompiler.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\CMakeFiles\3.30.0-rc3\CMakeCXXCompiler.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\CMakeFiles\3.30.0-rc3\CMakeRCCompiler.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\CMakeFiles\3.30.0-rc3\CMakeSystem.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\cmakedeps_macros.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\fmt-Target-release.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\fmt-config-version.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\fmt-config.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\fmt-release-x86_64-data.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\fmtTargets.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\magic_enum-Target-release.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\magic_enum-config-version.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\magic_enum-config.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\magic_enum-release-x86_64-data.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\magic_enumTargets.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\src\CMakeLists.txt;C:\Users\agung\Documents\My Project\Random\GTServer\src\conan.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\vendor\CMakeLists.txt;C:\Users\agung\Documents\My Project\Random\GTServer\vendor\enet\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\agung\Documents\My Project\Random\GTServer\build\CMakeFiles\generate.stamp;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\CMakeFiles\generate.stamp;C:\Users\agung\Documents\My Project\Random\GTServer\build\vendor\CMakeFiles\generate.stamp;C:\Users\agung\Documents\My Project\Random\GTServer\build\vendor\enet\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/agung/Documents/My Project/Random/GTServer" "-BC:/Users/agung/Documents/My Project/Random/GTServer/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/agung/Documents/My Project/Random/GTServer/build/GrowtopiaServer.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\CMakeLists.txt;C:\Users\agung\Documents\My Project\Random\GTServer\build\CMakeFiles\3.30.0-rc3\CMakeCCompiler.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\CMakeFiles\3.30.0-rc3\CMakeCXXCompiler.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\CMakeFiles\3.30.0-rc3\CMakeRCCompiler.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\CMakeFiles\3.30.0-rc3\CMakeSystem.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\cmakedeps_macros.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\fmt-Target-release.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\fmt-config-version.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\fmt-config.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\fmt-release-x86_64-data.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\fmtTargets.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\magic_enum-Target-release.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\magic_enum-config-version.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\magic_enum-config.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\magic_enum-release-x86_64-data.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\magic_enumTargets.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\src\CMakeLists.txt;C:\Users\agung\Documents\My Project\Random\GTServer\src\conan.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\vendor\CMakeLists.txt;C:\Users\agung\Documents\My Project\Random\GTServer\vendor\enet\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\agung\Documents\My Project\Random\GTServer\build\CMakeFiles\generate.stamp;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\CMakeFiles\generate.stamp;C:\Users\agung\Documents\My Project\Random\GTServer\build\vendor\CMakeFiles\generate.stamp;C:\Users\agung\Documents\My Project\Random\GTServer\build\vendor\enet\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/agung/Documents/My Project/Random/GTServer" "-BC:/Users/agung/Documents/My Project/Random/GTServer/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/agung/Documents/My Project/Random/GTServer/build/GrowtopiaServer.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\CMakeLists.txt;C:\Users\agung\Documents\My Project\Random\GTServer\build\CMakeFiles\3.30.0-rc3\CMakeCCompiler.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\CMakeFiles\3.30.0-rc3\CMakeCXXCompiler.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\CMakeFiles\3.30.0-rc3\CMakeRCCompiler.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\CMakeFiles\3.30.0-rc3\CMakeSystem.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\cmakedeps_macros.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\fmt-Target-release.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\fmt-config-version.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\fmt-config.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\fmt-release-x86_64-data.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\fmtTargets.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\magic_enum-Target-release.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\magic_enum-config-version.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\magic_enum-config.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\magic_enum-release-x86_64-data.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\magic_enumTargets.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\src\CMakeLists.txt;C:\Users\agung\Documents\My Project\Random\GTServer\src\conan.cmake;C:\Users\agung\Documents\My Project\Random\GTServer\vendor\CMakeLists.txt;C:\Users\agung\Documents\My Project\Random\GTServer\vendor\enet\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\agung\Documents\My Project\Random\GTServer\build\CMakeFiles\generate.stamp;C:\Users\agung\Documents\My Project\Random\GTServer\build\src\CMakeFiles\generate.stamp;C:\Users\agung\Documents\My Project\Random\GTServer\build\vendor\CMakeFiles\generate.stamp;C:\Users\agung\Documents\My Project\Random\GTServer\build\vendor\enet\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

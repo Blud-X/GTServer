@@ -1,0 +1,16 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake
+C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeParseArguments.cmake
+C:/Users/agung/Documents/My Project/Random/GTServer/build/src/cmakedeps_macros.cmake
+C:/Users/agung/Documents/My Project/Random/GTServer/build/src/fmt-Target-release.cmake
+C:/Users/agung/Documents/My Project/Random/GTServer/build/src/fmt-config-version.cmake
+C:/Users/agung/Documents/My Project/Random/GTServer/build/src/fmt-config.cmake
+C:/Users/agung/Documents/My Project/Random/GTServer/build/src/fmt-release-x86_64-data.cmake
+C:/Users/agung/Documents/My Project/Random/GTServer/build/src/fmtTargets.cmake
+C:/Users/agung/Documents/My Project/Random/GTServer/build/src/magic_enum-Target-release.cmake
+C:/Users/agung/Documents/My Project/Random/GTServer/build/src/magic_enum-config-version.cmake
+C:/Users/agung/Documents/My Project/Random/GTServer/build/src/magic_enum-config.cmake
+C:/Users/agung/Documents/My Project/Random/GTServer/build/src/magic_enum-release-x86_64-data.cmake
+C:/Users/agung/Documents/My Project/Random/GTServer/build/src/magic_enumTargets.cmake
+C:/Users/agung/Documents/My Project/Random/GTServer/src/CMakeLists.txt
+C:/Users/agung/Documents/My Project/Random/GTServer/src/conan.cmake

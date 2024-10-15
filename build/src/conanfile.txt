@@ -1,0 +1,10 @@
+[requires]
+fmt/10.1.0
+magic_enum/0.8.1
+[generators]
+CMakeDeps
+CMakeToolchain
+[imports]
+bin, *.dll -> ./bin
+[options]
+fmt/*:shared=True

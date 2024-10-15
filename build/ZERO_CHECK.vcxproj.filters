@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\agung\Documents\My Project\Random\GTServer\build\CMakeFiles\254434d635bf506fbfec384e30bd8c9d\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A4BCCBA6-F279-3F79-B58C-9B27CD1BD0D5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

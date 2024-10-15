@@ -1,0 +1,5 @@
+C:/Users/agung/Documents/My Project/Random/GTServer/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/agung/Documents/My Project/Random/GTServer/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/agung/Documents/My Project/Random/GTServer/build/src/CMakeFiles/GrowtopiaServer.dir
+C:/Users/agung/Documents/My Project/Random/GTServer/build/vendor/enet/CMakeFiles/enet.dir
+C:/Users/agung/Documents/My Project/Random/GTServer/build/vendor/enet/CMakeFiles/ALL_BUILD.dir

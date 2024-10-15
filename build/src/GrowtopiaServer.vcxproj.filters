@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\agung\Documents\My Project\Random\GTServer\src\event\event_pool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\agung\Documents\My Project\Random\GTServer\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\agung\Documents\My Project\Random\GTServer\src\player\player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\agung\Documents\My Project\Random\GTServer\src\server\server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\agung\Documents\My Project\Random\GTServer\src\server\server_pool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\agung\Documents\My Project\Random\GTServer\src\world\world.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\agung\Documents\My Project\Random\GTServer\src\event\event_context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\agung\Documents\My Project\Random\GTServer\src\event\event_pool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\agung\Documents\My Project\Random\GTServer\src\event\text_events\action.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\agung\Documents\My Project\Random\GTServer\src\player\additional\packet_sender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\agung\Documents\My Project\Random\GTServer\src\player\player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\agung\Documents\My Project\Random\GTServer\src\player\player_pool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\agung\Documents\My Project\Random\GTServer\src\proton\packet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\agung\Documents\My Project\Random\GTServer\src\proton\utils\common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\agung\Documents\My Project\Random\GTServer\src\proton\utils\text_scanner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\agung\Documents\My Project\Random\GTServer\src\proton\variant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\agung\Documents\My Project\Random\GTServer\src\server\server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\agung\Documents\My Project\Random\GTServer\src\server\server_pool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\agung\Documents\My Project\Random\GTServer\src\utils\binary_reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\agung\Documents\My Project\Random\GTServer\src\utils\binary_writer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\agung\Documents\My Project\Random\GTServer\src\utils\text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\agung\Documents\My Project\Random\GTServer\src\world\world.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\agung\Documents\My Project\Random\GTServer\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9728992D-B8A5-3AFF-B7F3-EF6EC79D5E18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{09CC2DBC-99C9-3419-B806-5B8F50437F1F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
