@@ -2,6 +2,7 @@
 #include <string>
 #include <enet/enet.h>
 #include <player/additional/packet_sender.h>
+#include <player/additional/variantlist_sender.h>
 
 namespace GrowtopiaServer {
     class Player : public PacketSender {
@@ -18,6 +19,9 @@ namespace GrowtopiaServer {
         [[nodiscard]] std::string GetDisplayName() const { return m_display_name; }
 
         [[nodiscard]] uint32_t GetConnectID() const {return m_connect_id; }
+        
+    public:
+        VariantListSender v_sender;
 
     private:
         ENetPeer* m_peer;
@@ -27,5 +31,6 @@ namespace GrowtopiaServer {
         std::string m_display_name{};
 
         uint32_t m_connect_id{ 0 };
+
     };
 }

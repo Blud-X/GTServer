@@ -3,7 +3,8 @@
 namespace GrowtopiaServer {
     Player::Player(ENetPeer* peer) : 
         m_peer(peer),
-        PacketSender{ peer } {
+        PacketSender{ peer },
+        v_sender{ peer } {
         if(!m_peer)
             return;
         m_peer->data = std::malloc(sizeof(uint32_t));

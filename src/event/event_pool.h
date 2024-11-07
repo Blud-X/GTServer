@@ -26,7 +26,6 @@ namespace GrowtopiaServer {
         std::size_t get_registered_event(const eEventType& type) const;
 
         bool execute(const eEventType& type, const std::string& data, EventContext& ctx) {
-            fmt::print("event_data: {}", data);
             const auto& it = m_events.find(type);
             if (it == m_events.end())
                 return false;

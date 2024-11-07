@@ -32,6 +32,7 @@ target_compile_definitions(${PROJECT_NAME} PRIVATE
     FMT_HEADER_ONLY
     WIN32_LEAN_AND_MEAN
     _WINSOCK_DEPRECATED_NO_WARNINGS
+    CPPHTTPLIB_OPENSSL_SUPPORT
 )
 set(CMAKE_BUILD_TYPE Debug)
 
@@ -43,6 +44,7 @@ else ()
     conan_cmake_configure(REQUIRES
             fmt/10.1.0
             magic_enum/0.8.1
+            cpp-httplib/0.18.1
         GENERATORS CMakeDeps CMakeToolchain
         IMPORTS "bin, *.dll -> ./bin"
         OPTIONS
@@ -68,6 +70,14 @@ else ()
     message(FATAL_ERROR "Could not find fmt")
 endif ()
 
+find_package(httplib REQUIRED)
+if (httplib_FOUND)
+    message(STATUS "Found httplib: ${httplib_VERSION}, at ${httplib_INCLUDE_DIRS}, ${httplib_LIBRARIES}")
+    target_include_directories(${PROJECT_NAME} PUBLIC ${httplib_INCLUDE_DIRS})
+else ()
+    message(FATAL_ERROR "Could not find fmt")
+endif ()
+
 find_package(magic_enum REQUIRED)
 if (magic_enum_FOUND)
     message(STATUS "Found magic_enum: ${magic_enum_VERSION}, at ${magic_enum_INCLUDE_DIRS}, ${magic_enum_LIBRARIES}")
@@ -85,5 +95,6 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
     enet
     fmt::fmt
     magic_enum::magic_enum
+    httplib::httplib
 )
 

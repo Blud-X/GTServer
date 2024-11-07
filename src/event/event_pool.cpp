@@ -3,6 +3,7 @@
 #include <algorithm>
 
 #include <event/text_events/action.h>
+#include <event/text_events/tank_id_name.h>
 
 namespace GrowtopiaServer {
     EventPool::EventPool() {
@@ -13,6 +14,7 @@ namespace GrowtopiaServer {
     }
 
     void EventPool::load_events() {
+        register_generic("tankIDName", events::tank_id_name);
         register_generic("action", events::action);
 
         fmt::print(" - registered events, {} genetric texts {} actions {} game packets\n",

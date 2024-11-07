@@ -2,6 +2,12 @@
 
 > The Growtopia Private Server is written in C++, with clean and more readable code.
 
+## TODO
+ - [x] Login and send player to world menu
+ - [ ] Items manager
+ - [ ] Join & leave world
+ - [x] Inbuilt http
+
 ## Build
 ### Requirements
 

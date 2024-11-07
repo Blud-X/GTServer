@@ -105,8 +105,6 @@ namespace GrowtopiaServer {
                             std::string event_data = str.substr(0, str.find('|'));
                             if (!m_events->execute(EVENT_TYPE_GENERIC_TEXT, event_data, ctx))
                                 break;
-
-                            fmt::print("[INCOMING STR] -> {}\n", str);
                         }
                         case NET_MESSAGE_GAME_PACKET: {
                             GameUpdatePacket* update_packet = this->DataToUpdatePacket(event.packet);
